@@ -1,1 +1,10 @@
-
+size(100,100);
+background(100);
+int x = 25;
+fill(0);
+ellipse (x,x,30,40);
+fill (100);
+ellipse (x+x,x+x,30,40);
+fill(255);
+ellipse (x+x+x,x+x+x,30,40);
+println(x);

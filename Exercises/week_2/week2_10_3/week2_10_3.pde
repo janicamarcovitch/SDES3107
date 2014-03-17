@@ -1,0 +1,11 @@
+size(200,200);
+background(201,40,28);
+noStroke();
+beginShape();
+vertex(80,60);
+bezierVertex(100,70,50,100,80,60);
+endShape();
+beginShape();
+vertex(150,160);
+bezierVertex(40,60,70,30,150,160);
+endShape();
